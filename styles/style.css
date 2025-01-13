@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding:0;
+}
+.one {
+  border-radius: 24px;
+
+background: rgb(198, 228, 214);
+
+position: static;
+width: 1060px;
+height: 560px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px 0px;
+}
+.sub-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 16px 0px;
+}
+.title{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.btn-container{
+
+}
+.btn{
+  color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 13px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+border:none;
+background: rgb(0, 106, 80);
+border-radius: 8px;
+justify-content: center;
+margin: 24px 0px;
+padding: 17px 34px 17px 34px;
+}
+.title2 {
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+width: 1280px;
+margin: 24px 0px;
+height: 48px;
+}
+.description2{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+padding: 0px;
+height: 48px;
+gap: 12;
+width: 1280px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
