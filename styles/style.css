@@ -85,10 +85,41 @@ text-align: left;
 margin: 12px 0px;
 padding: 0px;
 height: 48px;
-gap: 12;
+gap: 32px;
 width: 1280px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
+}
+.vision-container{
+  display: flex;
+  gap:24x;
+}
+.visiontitle{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vision-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.button123{
+  color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
 }
