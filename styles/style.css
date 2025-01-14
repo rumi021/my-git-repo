@@ -82,7 +82,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-margin: 12px 0px;
+margin: 12px 6px;
 padding: 0px;
 height: 48px;
 gap: 32px;
@@ -91,10 +91,16 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
+
 }
 .vision-container{
   display: flex;
-  gap:24x;
+  gap:24px;
+  margin-top:13px;
+  padding:30px;
+  justify-content: space-around;
+  align-items: flex-start;
+
 }
 .visiontitle{
   color: rgba(14, 14, 14, 0.8);
@@ -104,6 +110,8 @@ font-weight: 700;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
+margin-top: 5px;
+
 }
 .vision-description{
   color: rgba(14, 14, 14, 0.7);
@@ -113,13 +121,119 @@ text-align: left;
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+  margin-top:5px;
 }
 .button123{
+  color:white;
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10px;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+margin: 24px 0px;
+align-items: right;
+justify-content: right;
+position: static;
+gap: 48px;
+border:none;
+
+
+}
+.vision-one{
+  box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+width: 410.67px;
+height: 325px;
+padding: 32px;
+margin: 0px 20px;
+/* align-items: flex-start;
+flex-direction: column;
+justify-content: flex-start; */
+
+}
+.vision-two{
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  padding: 32px;
+  margin: 0px 24px;
+  height: 325px;
+  width: 410.67px;
+
+}
+.vision-three{
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 410.67px;
+  height: 325px;
+  background: rgb(247, 235, 207);
+  padding: 24px;
+  margin: 0px 24px;
+}
+/* .button123{
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+background: rgb(84, 144, 245);
+margin: 24px 0px;
+justify-content: center;
+align-items: center;
+} */
+.main{
+  margin:0 auto;
+}
+.ima{
+  margin-bottom: 10px;
+}
+.primaryone{
+  color:white;
+  border-radius: 8px;
+border: none;
+  background: rgb(84, 144, 245);
   color: rgb(255, 255, 255);
 font-family: Fira Sans;
 font-size: 16px;
 font-weight: 600;
 line-height: 19px;
 letter-spacing: 0%;
+text-align: left;
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+text-align: left;
+}
+.primarytwo{
+  color:white;
+border-radius: 8px;
+background-color: rgb(9, 161, 92);
+border:none;
+Font: Fira Sans;
+Font-weight: 600;
+Font-size: 16px;
+
+Letter-spacing :0%;
+text-align:left;
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+text-align: left;
+}
+.primarythree{
+  color:white;
+  border-radius: 8px;
+border: none;
+background: rgb(255, 194, 57);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+margin: 24px 0px;
+padding: 11px 20px 11px 20px;
 text-align: left;
 }
