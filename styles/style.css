@@ -288,8 +288,109 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-margin-top: 12px;
-gap:4;
+margin-top: 26px;
+gap: 4; 
+
+
+}
+.heading{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin: 24px 20px;
+}
+.redefine{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 24px 24px;
+}
+
+.news-title{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+padding: 0px;
+gap: 12; 
+}
+.news-description{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 744px;
+height: 72px;
+gap: 12;
+padding: 0px;
+
+
+
+}
+.news-container{
+display: flex;
+
+
+}
+.news-image{
+  border-radius: 24px;
+  height: 306px;
+  width: 408px;
+margin: 0px 32px;
+}
+.channel-image{
+  width: 134px;
+  height: 40px;
+  margin: 12px 0px;
+}
+.time{
+  margin: 12px 0px;
+  padding: 0px;
+  width: 744px;
+  height: 24px;
+  gap: 12;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+.news-button{
+  border-radius: 8px;
+  height: 48px;
+  width: 139px;
+  margin: 32px 0px;
+  gap: 48;
+  border-radius: 8px;
+  background-color: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+
+
+
 
 
 }
